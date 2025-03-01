@@ -1,0 +1,67 @@
+// Navbar.scss
+
+.navbar {
+  background-color: #006400; // Dark green background color
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow
+  padding: 1rem 0; // Padding top and bottom
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; // Max width for the container
+    margin: 0 auto; // Center the container
+    padding: 0 20px; // Padding left and right
+
+    .logo {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      .text {
+        font-size: 1.5rem; // Larger font size for the logo
+        font-weight: bold; // Bold text
+        color: #ffffff; // White color for text (contrasts with dark green)
+      }
+
+      .dot {
+        font-size: 1.5rem; // Same size as the text
+        font-weight: bold;
+        color: #ffd700; // Gold color for the dot (accent color)
+      }
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem; // Space between links
+
+      span {
+        font-size: 1rem; // Font size for links
+        color: #ffffff; // White color for links (contrasts with dark green)
+        cursor: pointer;
+        transition: color 0.3s ease; // Smooth color transition
+
+        &:hover {
+          color: #ffd700; // Gold color on hover (accent color)
+        }
+      }
+
+      button {
+        background-color: #006400; // Dark green background for the button
+        color: #ffffff; // White text for contrast
+        border: 2px solid #ffd700; // Gold border for the button
+        padding: 0.5rem 1rem; // Padding inside the button
+        border-radius: 5px; // Rounded corners
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease; // Smooth transition for all properties
+
+        &:hover {
+          background-color: #004d00; // Slightly darker green on hover (optional)
+          border-color: #ffffff; // White border on hover (optional)
+        }
+      }
+    }
+  }
+}
