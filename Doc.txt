@@ -54,4 +54,4 @@ Payment Security Issues: Disputes over payments and project completion often ari
 
 Limited AI-Based Matching: Many platforms rely on keyword-based search rather than intelligent recommendations.
 
-Trust Concerns: Fraudulent job postings and fake freelancer profiles can create reliability issues.
+Trust Concerns: Fraudulent job postings and fake freelancer profiles can create reliability issues
