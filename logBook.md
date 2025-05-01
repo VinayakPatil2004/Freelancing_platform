@@ -200,6 +200,15 @@ This phase focused on developing effective communication and project management 
 ---
 
 Each module will undergo thorough testing to ensure reliability across devices.
+![Screenshot](assets/68747470733a2f2f692e6962622e636f2f3939565a424e712f31312e706e67.png)
+![Screenshot](assets/68747470733a2f2f692e6962622e636f2f42477733326d332f342e706e67(1).png)
+![Screenshot](assets/68747470733a2f2f692e6962622e636f2f42477733326d332f342e706e67.png)
+![Screenshot](assets/68747470733a2f2f692e6962622e636f2f476b52745633542f382e706e67.png)
+![Screenshot](assets/68747470733a2f2f692e6962622e636f2f4d327867714e312f31332e706e67.png)
+![Screenshot](assets/68747470733a2f2f692e6962622e636f2f546b785a6a63572f31322e706e67.png)
+![Screenshot](assets/68747470733a2f2f692e6962622e636f2f594e7972445a622f332e706e67.png)
+
+
 
 
 ## 5. Software & Hardware Requirements
