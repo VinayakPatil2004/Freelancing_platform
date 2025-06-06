@@ -1,7 +1,7 @@
 # 📝 LOG BOOK
 
 **Freelancing Platform-Fiver**  
-**Semester Project - III (Sem-V, 2024-25)**
+**Semester Project - III (Sem-VI, 2024-25)**
 
 ---
 
@@ -86,8 +86,8 @@
 #### 3.1 Architecture
 
 1. **Frontend**: ReactJS for responsive UI/UX.
-2. **Backend**: Nodejs , Express, SQL
-3. **Database**: SQL
+2. **Backend**: Nodejs , Express, MongoDB
+3. **Database**: MongoDB
 4. **AI Model**:Python (Scikit-learn,Tenserflow)
 5. **Real-Time Communication**: WebSocket
 6. **Payment gateway**: Escorw,Stripe
@@ -100,7 +100,7 @@
 |-------------------------------|--------------------------------------|
 | Freelancer & Employer Management | React, Node, Express, MySQL          |
 | AI Job Matching               | Python (scikit-learn, TensorFlow)    |
-| Secure Payment & Escrow       | Payment Gateway API, SQL            |
+| Secure Payment & Escrow       | Payment Gateway API,MongoDB          |
 | Communication Tools           | WebSocket, Cloud Storage            |
 | Analytics & Insights          | MySQL Queries, Data Visualization   |
 
@@ -134,7 +134,7 @@ The first development phase focused on setting up the core functionalities for b
 
 ✅ Frontend and backend integration for Module 1 completed successfully.
 
-## 4.2 Phase 2 (Completed)
+## 4.2 Phase 2 
 
 ### Module 2: Communication & Collaboration Tools
 
