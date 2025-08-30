@@ -33,6 +33,56 @@ Payments, contracts, and communication are often managed directly through the pl
 When a client decides to hire a freelancer, they deposit the project fee (or milestone amount) into the platform’s escrow account.
  Example: If a project is worth ₹10,000, the client first puts this money into escrow. This proves they are serious and have the funds available.
 
+ ## Real-Time Chat System (WebSocket Based)
+This project is a real-time chat system built using WebSockets, designed for a freelancing platform to enable seamless communication between Employers and Freelancers.
+
+🚀 Features
+Real-Time Messaging: Instant communication using WebSockets without page reloads.
+
+Role-Based Chat: Employers and Freelancers can send and receive messages securely.
+
+Private Conversations: Each chat is isolated between two users.
+
+Message History: Stores past messages for easy reference.
+
+Online/Offline Status: Shows user availability in real-time.
+
+Typing Indicator: Notifies when the other user is typing.
+
+Scalable Architecture: Can handle multiple concurrent chats.
+
+🛠️ Tech Stack
+Backend: Node.js / Express.js with WebSocket (ws / Socket.IO)
+
+Frontend: React.js / Next.js (or your chosen framework)
+
+Database: MongoDB / PostgreSQL (for message persistence)
+
+Authentication: JWT / Session-based authentication for secure communication
+
+⚡ How It Works
+A user logs in (Employer or Freelancer).
+
+WebSocket connection is established.
+
+Users can send/receive real-time messages.
+
+Messages are stored in the database for persistence.
+
+Both users can view message history anytime.
+
+🔒 Security
+JWT-based authentication for users.
+
+Messages encrypted before storage.
+
+Only chat participants can access the conversation.
+
+🎯 Use Case in Freelancing Platform
+Employers can discuss project requirements, deadlines, and budgets.
+
+Freelancers can share updates, clarify tasks, and deliver work efficiently.
+
 -**Project Execution**
 The freelancer begins the work knowing the payment is already secured in escrow.
  Payments can be divided into milestones (e.g., design phase, development phase, testing phase), so freelancers are paid as each part is completed.
